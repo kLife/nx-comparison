@@ -12,6 +12,16 @@ $wrapperWidth: 535px;
 .ui-select-list {
 	max-height: 520px;
 }
+
+@font-face {
+	font-family: 'LeviWindows';
+	src: url(../font/LeviWindows.ttf);
+}
+
+body {
+	font-family: Osaka, "ＭＳ Ｐゴシック", sans-serif;
+}
+
 // ==================================================
 // メイン
 // ==================================================
@@ -102,6 +112,7 @@ body {
 			color: #977;
 			background-color: #fdd;
 			border: solid 1px #caa;
+			padding: 0px 1px;
 		}
 		
 		.nxc-search-keyword {
@@ -125,6 +136,14 @@ body {
 	
 	.frame-content {
 		width: 245px;
+
+		&.lang-en {
+			font-family: LeviWindows !important;
+			font-size: 22px !important;
+			line-height: 17px !important;
+			font-weight: 100 !important;
+			letter-spacing: 1px;
+		}
 		
 		// アイテム詳細
 		.item-details {
@@ -192,3 +211,4 @@ body {
 		display: none;
 	}
 }
+

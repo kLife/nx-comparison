@@ -216,7 +216,7 @@
 			error_read_file: "Failed to read data.",
 			loading_data: "Loading...",
 			// Added on June 23rd 2017
-			exclude_not_exist_nx: "錬成不可を除外",
+			exclude_not_exist_nx: "Exclude equipments that can not be trained",
 			search_form_button: "Search",
 			search_form_placeholder: "Item name",
 			image_download_button: "Save as image",

@@ -55,6 +55,10 @@ let isOutputMode = false;
 			this._createTooltip();
 			this._restoreSearchState();
 			this._restoreSelectedState();
+			
+			if (Koukun.NxComparison.Message.getLanguage() == "en") {
+				$(".frame-content").addClass("lang-en");
+			}
 		},
 
 		loadDataSource: function() {
@@ -1354,3 +1358,4 @@ let isOutputMode = false;
 		});
 	});
 })();
+

@@ -214,7 +214,15 @@
 			message_download_link: "nx-comparison-%s.png",
 			message_history_group_name: "latest %d",
 			error_read_file: "Failed to read data.",
-			loading_data: "Loading..."
+			loading_data: "Loading...",
+			// Added on June 23rd 2017
+			exclude_not_exist_nx: "錬成不可を除外",
+			search_form_button: "Search",
+			search_form_placeholder: "Item name",
+			image_download_button: "Save as image",
+			loading_error_message1: "Please reload if loading does not end.",
+			loading_error_message2: "If even after reloading useless reports please browser in use in the comments.",
+			loading_error_reload_button: "Reload"
 		},
 
 		// -------------------------
@@ -376,7 +384,15 @@
 			message_download_link: "Nx比較一覧_%s.png",
 			message_history_group_name: "最新 %d件",
 			error_read_file: "データの読み込みに失敗しました。",
-			loading_data: "読み込み中..."
+			loading_data: "読み込み中...",
+			// 追加 2017.06.23
+			exclude_not_exist_nx: "錬成不可を除外",
+			search_form_button: "検索",
+			search_form_placeholder: "アイテム名",
+			image_download_button: "画像として保存",
+			loading_error_message1: "読み込まれない場合はリロードしてください。",
+			loading_error_message2: "リロードしても駄目な場合は、使用中のブラウザをコメントで報告お願いします。",
+			loading_error_reload_button: "ページをリロード"
 		}
 	}
 

@@ -145,13 +145,15 @@ let isOutputMode = false;
 				return
 			}
 
-			$(".nxc-setting-form span").text("Exclude CANNOT Grinding");
-			$(".nxc-serch-form input").attr("placeholder", "Item name");
-			$(".nxc-serch-form button").text("Search");
-			$(".nxc-btn-download-captcha").text("Save as image");
-			$(".nxc-progress-message").text("Loading... 0%");
-			$(".nxc-reload-page span").eq(0).text("Please reload if loading does not end.");
-			$(".nxc-reload-page span").eq(1).text("If even after reloading useless reports please browser in use in the comments.");
+
+			$(".setting-form span").text(_Message.get("exclude_not_exist_nx"));
+			$(".search-form input").attr("placeholder", _Message.get("search_form_placeholder"));
+			$(".search-form button").text(_Message.get("search_form_button"));
+			$(".nxc-btn-download-captcha").text(_Message.get("image_download_button"));
+			$(".nxc-progress-message").text(_Message.get("loading_data") + " 0%");
+			$(".nxc-reload-page span").eq(0).text(_Message.get("loading_error_message1"));
+			$(".nxc-reload-page span").eq(1).text(_Message.get("loading_error_message2"));
+			$(".nxc-reload-page button").text(_Message.get("loading_error_reload_button"));
 		},
 
 		_setEventHandler: function() {

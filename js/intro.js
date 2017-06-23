@@ -57,7 +57,8 @@
 	var _messages = {
 		// -------------------------
 		// 英語
-			en: {
+		en: {
+			minipet_food_type: {
 				1: "Biological type",
 				2: "Energy type",
 				3: "Inorganic type"

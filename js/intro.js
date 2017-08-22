@@ -177,7 +177,7 @@
 				63: "Gun",
 				64: "Magic bullet"
 			},
-			data_version: "0.0644",
+			data_version: "0.0606",
 			common_bullet: "- ",
 			content_minipet_food_type: "Minipet food type <span class='text-color-LTYELLOW'>%s</span>",
 			content_shooting_range: "Shooting range <span class='text-color-LTYELLOW'>%d</span>",

@@ -11502,7 +11502,7 @@
     {"Id":104,"Value":[10]},{"Id":21,"Value":[170]},{"Id":157,"Value":[120]}],"OpNxt":[{"Id":291,"Value":[110]},
     {"Id":316,"Value":[]},{"Id":41,"Value":[10]},{"Id":175,"Value":[10]}],"Require":{"0":631,"1":176,"2":250},
     "Job":[4,14]},{"Id":8604,"ImageId":2772,"NxId":8605,"Type":7,"Name":"Apache Shoes","Rank":"U","Grade":"DX",
-    "AtParam":{"Min":25,"Max":30},"Food":2,"ValueTable":[[15,15],[100,100]],"OpPrt":[{"Id":0,"ValueIndex":[0,
+    "AtParam":{"Min":20,"Max":25},"Food":2,"ValueTable":[[15,15],[100,100]],"OpPrt":[{"Id":0,"ValueIndex":[0,
     0]},{"Id":87,"ValueIndex":[1,0]}],"OpBit":[{"Id":31,"Value":[5]},{"Id":53,"Value":[50]},{"Id":153,"Value":[5]},
     {"Id":154,"Value":[10]},{"Id":21,"Value":[50]},{"Id":157,"Value":[50]}],"OpNxt":[],"Require":{"0":631,
     "1":176,"2":250},"Job":[7]},{"Id":8605,"ImageId":2772,"NxId":8604,"Type":7,"Name":"Apache Shoes[Nx]",
@@ -11510,4 +11510,7 @@
     "ValueIndex":[0,0]},{"Id":87,"ValueIndex":[1,0]}],"OpBit":[{"Id":31,"Value":[10]},{"Id":53,"Value":[60]},
     {"Id":40,"Value":[20]},{"Id":41,"Value":[15]},{"Id":21,"Value":[55]},{"Id":157,"Value":[50]}],"OpNxt":[{"Id":291,
     "Value":[110]},{"Id":1,"Value":[145]},{"Id":40,"Value":[20]},{"Id":178,"Value":[20]}],"Require":{"0":631,
-    "1":176,"2":250},"Job":[7]}]
+    "1":176,"2":250},"Job":[7]},{"Id":8607,"ImageId":2711,"NxId":8469,"Type":63,"Name":"Demon Flame [E]",
+    "Rank":"U","Grade":"DX","AtParam":{"Range":450,"Speed":130,"Min":41,"Max":49},"Food":1,"ValueTable":[],
+    "OpPrt":[],"OpBit":[{"Id":21,"Value":[190]},{"Id":41,"Value":[15]},{"Id":34,"Value":[5]},{"Id":1,"Value":[110]},
+    {"Id":2,"Value":[100]},{"Id":104,"Value":[1]}],"OpNxt":[],"Require":{"0":30,"1":15,"2":15},"Job":[22]}]
